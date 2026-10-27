@@ -1,0 +1,9 @@
+id,status,score,attempts,duplicate_of,review_reasons,company,contact_email,budget_usd,timeline_days,service
+lead-001,qualified,100,1,,,Example Harbor,alex@example.com,8000,30,backend_integration
+lead-002,review,40,1,,missing:company;missing:contact_email;missing:budget_usd;missing:timeline_days;score_below_70,,,,,backend_integration
+lead-003,qualified,100,2,,,Example Meadow,sam@example.com,6000,45,backend_integration
+lead-004,review,0,2,,invalid_output,,,,,
+lead-005,review,0,2,,provider_timeout,,,,,
+lead-006,review,0,1,,score_below_70,Example Fern,robin@example.com,100,5,other
+lead-007,duplicate,0,0,lead-001,,,,,,
+lead-008,review,0,1,,unsupported_fixture_input,,,,,

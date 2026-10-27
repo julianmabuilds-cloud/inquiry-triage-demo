@@ -1,0 +1,45 @@
+{
+  "mock_only": true,
+  "records": [
+    {
+      "id": "lead-001",
+      "status": "qualified",
+      "fields": {
+        "company": "Example Harbor",
+        "contact_email": "alex@example.com",
+        "budget_usd": 8000,
+        "timeline_days": 30,
+        "service": "backend_integration"
+      },
+      "score": 100,
+      "score_reasons": [
+        "backend_integration:+40",
+        "budget_at_least_5000:+35",
+        "timeline_14_to_90_days:+25"
+      ],
+      "review_reasons": [],
+      "duplicate_of": null,
+      "attempts": 1
+    },
+    {
+      "id": "lead-003",
+      "status": "qualified",
+      "fields": {
+        "company": "Example Meadow",
+        "contact_email": "sam@example.com",
+        "budget_usd": 6000,
+        "timeline_days": 45,
+        "service": "backend_integration"
+      },
+      "score": 100,
+      "score_reasons": [
+        "backend_integration:+40",
+        "budget_at_least_5000:+35",
+        "timeline_14_to_90_days:+25"
+      ],
+      "review_reasons": [],
+      "duplicate_of": null,
+      "attempts": 2
+    }
+  ]
+}

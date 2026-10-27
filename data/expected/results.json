@@ -1,0 +1,130 @@
+[
+  {
+    "id": "lead-001",
+    "status": "qualified",
+    "fields": {
+      "company": "Example Harbor",
+      "contact_email": "alex@example.com",
+      "budget_usd": 8000,
+      "timeline_days": 30,
+      "service": "backend_integration"
+    },
+    "score": 100,
+    "score_reasons": [
+      "backend_integration:+40",
+      "budget_at_least_5000:+35",
+      "timeline_14_to_90_days:+25"
+    ],
+    "review_reasons": [],
+    "duplicate_of": null,
+    "attempts": 1
+  },
+  {
+    "id": "lead-002",
+    "status": "review",
+    "fields": {
+      "company": null,
+      "contact_email": null,
+      "budget_usd": null,
+      "timeline_days": null,
+      "service": "backend_integration"
+    },
+    "score": 40,
+    "score_reasons": [
+      "backend_integration:+40"
+    ],
+    "review_reasons": [
+      "missing:company",
+      "missing:contact_email",
+      "missing:budget_usd",
+      "missing:timeline_days",
+      "score_below_70"
+    ],
+    "duplicate_of": null,
+    "attempts": 1
+  },
+  {
+    "id": "lead-003",
+    "status": "qualified",
+    "fields": {
+      "company": "Example Meadow",
+      "contact_email": "sam@example.com",
+      "budget_usd": 6000,
+      "timeline_days": 45,
+      "service": "backend_integration"
+    },
+    "score": 100,
+    "score_reasons": [
+      "backend_integration:+40",
+      "budget_at_least_5000:+35",
+      "timeline_14_to_90_days:+25"
+    ],
+    "review_reasons": [],
+    "duplicate_of": null,
+    "attempts": 2
+  },
+  {
+    "id": "lead-004",
+    "status": "review",
+    "fields": null,
+    "score": 0,
+    "score_reasons": [],
+    "review_reasons": [
+      "invalid_output"
+    ],
+    "duplicate_of": null,
+    "attempts": 2
+  },
+  {
+    "id": "lead-005",
+    "status": "review",
+    "fields": null,
+    "score": 0,
+    "score_reasons": [],
+    "review_reasons": [
+      "provider_timeout"
+    ],
+    "duplicate_of": null,
+    "attempts": 2
+  },
+  {
+    "id": "lead-006",
+    "status": "review",
+    "fields": {
+      "company": "Example Fern",
+      "contact_email": "robin@example.com",
+      "budget_usd": 100,
+      "timeline_days": 5,
+      "service": "other"
+    },
+    "score": 0,
+    "score_reasons": [],
+    "review_reasons": [
+      "score_below_70"
+    ],
+    "duplicate_of": null,
+    "attempts": 1
+  },
+  {
+    "id": "lead-007",
+    "status": "duplicate",
+    "fields": null,
+    "score": 0,
+    "score_reasons": [],
+    "review_reasons": [],
+    "duplicate_of": "lead-001",
+    "attempts": 0
+  },
+  {
+    "id": "lead-008",
+    "status": "review",
+    "fields": null,
+    "score": 0,
+    "score_reasons": [],
+    "review_reasons": [
+      "unsupported_fixture_input"
+    ],
+    "duplicate_of": null,
+    "attempts": 1
+  }
+]
