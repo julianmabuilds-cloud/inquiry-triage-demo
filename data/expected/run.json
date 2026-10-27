@@ -1,0 +1,10 @@
+{
+  "mode": "offline_fixture",
+  "summary": {
+    "total": 8,
+    "qualified": 2,
+    "review": 5,
+    "duplicate": 1,
+    "provider_attempts": 10
+  }
+}
