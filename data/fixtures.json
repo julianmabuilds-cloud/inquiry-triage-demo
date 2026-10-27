@@ -1,0 +1,56 @@
+[
+  {
+    "text": "Hello, I am from Example Harbor. Contact alex@example.com. We need a Python backend integration. Budget USD 8000, target 30 days.",
+    "fields": {
+      "company": "Example Harbor",
+      "contact_email": "alex@example.com",
+      "budget_usd": 8000,
+      "timeline_days": 30,
+      "service": "backend_integration"
+    },
+    "behavior": "success"
+  },
+  {
+    "text": "We need a backend integration. Please share details.",
+    "fields": {
+      "company": null,
+      "contact_email": null,
+      "budget_usd": null,
+      "timeline_days": null,
+      "service": "backend_integration"
+    },
+    "behavior": "success"
+  },
+  {
+    "text": "Example Meadow needs a backend integration in 45 days. Email sam@example.com. Budget USD 6000.",
+    "fields": {
+      "company": "Example Meadow",
+      "contact_email": "sam@example.com",
+      "budget_usd": 6000,
+      "timeline_days": 45,
+      "service": "backend_integration"
+    },
+    "behavior": "transient_timeout"
+  },
+  {
+    "text": "Example Quartz requests a backend integration. Budget USD 9000; 60 days. Email pat@example.com.",
+    "fields": null,
+    "behavior": "invalid"
+  },
+  {
+    "text": "Example Cedar requests a backend integration. Budget USD 7000; 20 days. Email lee@example.com.",
+    "fields": null,
+    "behavior": "timeout"
+  },
+  {
+    "text": "Example Fern needs a logo in 5 days. Budget USD 100. Email robin@example.com.",
+    "fields": {
+      "company": "Example Fern",
+      "contact_email": "robin@example.com",
+      "budget_usd": 100,
+      "timeline_days": 5,
+      "service": "other"
+    },
+    "behavior": "success"
+  }
+]

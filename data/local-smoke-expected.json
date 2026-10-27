@@ -1,0 +1,22 @@
+[
+  {
+    "id": "lead-001",
+    "expected_fields": {
+      "company": "Example Harbor",
+      "contact_email": "alex@example.com",
+      "budget_usd": 8000,
+      "timeline_days": 30,
+      "service": "backend_integration"
+    }
+  },
+  {
+    "id": "lead-002",
+    "expected_fields": {
+      "company": null,
+      "contact_email": null,
+      "budget_usd": null,
+      "timeline_days": null,
+      "service": "backend_integration"
+    }
+  }
+]

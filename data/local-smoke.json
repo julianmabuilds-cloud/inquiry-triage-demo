@@ -1,0 +1,12 @@
+{
+  "inquiries": [
+    {
+      "id": "lead-001",
+      "text": "Hello, I am from Example Harbor. Contact alex@example.com. We need a Python backend integration. Budget USD 8000, target 30 days."
+    },
+    {
+      "id": "lead-002",
+      "text": "We need a backend integration. Please share details."
+    }
+  ]
+}

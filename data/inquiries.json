@@ -1,0 +1,36 @@
+{
+  "inquiries": [
+    {
+      "id": "lead-001",
+      "text": "Hello, I am from Example Harbor. Contact alex@example.com. We need a Python backend integration. Budget USD 8000, target 30 days."
+    },
+    {
+      "id": "lead-002",
+      "text": "We need a backend integration. Please share details."
+    },
+    {
+      "id": "lead-003",
+      "text": "Example Meadow needs a backend integration in 45 days. Email sam@example.com. Budget USD 6000."
+    },
+    {
+      "id": "lead-004",
+      "text": "Example Quartz requests a backend integration. Budget USD 9000; 60 days. Email pat@example.com."
+    },
+    {
+      "id": "lead-005",
+      "text": "Example Cedar requests a backend integration. Budget USD 7000; 20 days. Email lee@example.com."
+    },
+    {
+      "id": "lead-006",
+      "text": "Example Fern needs a logo in 5 days. Budget USD 100. Email robin@example.com."
+    },
+    {
+      "id": "lead-007",
+      "text": "  HELLO, I AM FROM EXAMPLE HARBOR. CONTACT ALEX@EXAMPLE.COM. WE NEED A PYTHON BACKEND INTEGRATION. BUDGET USD 8000, TARGET 30 DAYS.  "
+    },
+    {
+      "id": "lead-008",
+      "text": "Unmapped synthetic request."
+    }
+  ]
+}
